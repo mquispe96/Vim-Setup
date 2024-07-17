@@ -6,11 +6,12 @@
 - Open your .vimrc file by typing `vim ~/.vimrc`
 - Copy and paste the content of the .vimrc file in this repository into your .vimrc file
 - Save and exit the file by typing `:wq`
-- Open vim and type `:PlugInstall` to install the PlugInstall PlugInstall
-- Enter the following commands to install coc.nvim, otherwise you'll get an error everytime you open vim
+- Open your .vimrc file by typing `vim ~/.vimrc` again
+    - type `:PlugInstall` to install all the plugins
+- Enter the following commands in the terminal to install coc.nvim, otherwise you'll get an error everytime you open vim
     - `~/.vim/plugged/coc.nvim`
     - `npm ci`
-- Enter the following commands to enable tagBar, otherwise it won't work
+- Enter the following commands in the terminal to enable tagBar, otherwise it won't work
     - `brew unlink ctags`
     - `brew install universal-ctags`
 
